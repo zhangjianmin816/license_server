@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+#================License相关配置===============#
+
+#证书名称
+license:
+  subject: onedoc
+#公钥别名
+  publicAlias: publicCert
+#公钥库所在的位置
+  publicKeysStorePath: /publicCerts.store
+#公钥库访问密码
+  storePass: public_password1234
+#证书所在的位置
+  licensePath: D:\\license\\license.lic
+
+#================License相关配置===============#
